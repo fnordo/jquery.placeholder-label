@@ -1,0 +1,18 @@
+= JQuery.Placeholder-Label
+
+This plugin enables the display of HTML5-style placeholder labels in older browsers. 
+
+The plugin will be auto-disabled when used in a modern browser that supports HTML5 placeholders.
+
+== Usage
+
+  $('input:text[placeholder]').placeholderLabel();
+
+== Compatibility
+
+Tested in the following browsers:
+
+* Internet Explorer 6, 7, 8
+* Firefox 3.6
+* Google Chrome 8
+* Safari 5
