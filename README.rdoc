@@ -7,6 +7,10 @@ The plugin will be auto-disabled when used in a modern browser that supports HTM
 == Usage
 
   $('input:text[placeholder]').placeholderLabel();
+  
+== Demo
+
+{JQuery.Placeholder-Label demo}[https://github.com/AbleTech/jquery.placeholder-label/raw/master/demo.html]
 
 == Compatibility
 

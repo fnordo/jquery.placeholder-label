@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JQuery.placeholder-label Demo</title>
+    <meta charset="utf-8" />
+    <style>
+      article, aside, details, figcaption, figure, footer, header,
+      hgroup, menu, nav, section { display: block; }
+      input.placeholder {color: #ccc; font-style: italic}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>JQuery.placeholder-label Demo</h1>
+    </header>
+    
+    <p style="max-width: 700px">
+      The form below has a text input field with a placeholder attribute set. When rendered in older browsers, the
+      CSS class of "placeholder" is applied. In this example, an inline style renders the placeholder text in a
+      light grey color (with italics). 
+    </p>
+
+    <form action="http://www.google.com/search">
+      <p>
+        Google Search 
+        <input type="text" name="q" placeholder="enter search terms here" value="" />
+        <input type="submit" value="Search">
+      </p>
+    </form>
+
+    <footer>
+      <p>
+        Copyright (c) 2010 Able Technology Consulting Limited<br/>
+        <a href="http://www.abletech.co.nz/">www.abletech.co.nz</a>
+      </p>
+    </footer>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://github.com/AbleTech/jquery.placeholder-label/raw/master/jquery.placeholder-label.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('input:text[placeholder]').placeholderLabel();
+      });
+    </script>
+  </body>
+</html>
