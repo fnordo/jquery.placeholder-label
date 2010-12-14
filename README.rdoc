@@ -21,7 +21,7 @@ you can set an alternate css class:
   
 == Screenshot
 
-[http://abletech.github.com/jquery.placeholder-label/placeholder.png]  
+http://abletech.github.com/jquery.placeholder-label/placeholder.png 
 
 == Demo
 
