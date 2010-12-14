@@ -4,19 +4,30 @@ This plugin enables the display of HTML5-style placeholder labels in older brows
 
 The plugin will be auto-disabled when used in a modern browser that supports HTML5 placeholders.
 
-== Usage
+== Simple usage
 
   $('input:text[placeholder]').placeholderLabel();
   
+then set a CSS style such as
+
+  input.placeholder {
+    color: #CCC;
+    font-style: italic;
+  }
+
+you can set an alternate css class:
+
+  $('input:text[placeholder]').placeholderLabel({placeholder_class: 'dull'});
+  
 == Demo
 
-{JQuery.Placeholder-Label demo}[https://github.com/AbleTech/jquery.placeholder-label/raw/master/demo.html]
+{JQuery.Placeholder-Label demo}[http://abletech.github.com/jquery.placeholder-label/demo.html]
 
 == Compatibility
 
 Tested in the following browsers:
 
 * Internet Explorer 6, 7, 8
-* Firefox 3.6
-* Google Chrome 8
+* Firefox 3.x
+* Google Chrome 8, 9
 * Safari 5
