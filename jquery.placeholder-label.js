@@ -1,5 +1,7 @@
 /**
  * Placeholder label
+ * https://github.com/AbleTech/jquery.placeholder-label
+ *
  * Copyright (c) 2010 Able Technology Consulting Limited
  * http://www.abletech.co.nz/
  */
