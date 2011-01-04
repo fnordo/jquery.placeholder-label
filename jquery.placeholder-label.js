@@ -19,7 +19,7 @@
     disable_placeholder_fields: function(){
       $(this).find("input[placeholder]").each(function(){
         if($(this).val() == $(this).attr('placeholder')){
-          $(this).attr('disabled', 'disabled');
+          $(this).val('');
         }
       });
 
